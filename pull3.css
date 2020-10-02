@@ -14,9 +14,17 @@ color: orange;
 
 }
 
-button {
+.btn {
   background-color: orange;
   text-align: center;
   padding: 15px 32px;
   font-size: 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: black;
+  border: 4px solid orange;
+  color: orange;
 }
